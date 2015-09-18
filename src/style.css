@@ -1,0 +1,142 @@
+/* Styles go here */
+body {
+	font-family: "Courier New";
+	font-size: 10pt;
+	line-height: 12pt;
+	background-color: #A2CB3D;
+	color: #555555;
+
+	/*background: #ffffff url(../images/bg-body.jpg) repeat-x; 
+	color:#474747;
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 14px; 
+	line-height: 25px; 
+	margin: 0;
+	min-width: 960px;
+	padding: 0;*/
+}
+	
+rect {
+	  fill: white;
+	stroke:black;
+}
+
+.horizontalGrid, .verticalGrid{
+	fill : none;
+       	shape-rendering : crispEdges;
+	stroke : grey;
+       	stroke-width : 1px;
+}
+		
+.line{
+	stroke:black;
+	stroke-width:2px;
+	fill:#D7A941;
+}
+
+.outer-boundary{
+	stroke:grey;
+	stroke-width:3px;
+}
+.tooltip {
+		position: absolute;
+		width: 200px;
+  		height: 28px;
+  		pointer-events: none;
+}
+
+.point{
+	 opacity: 0.7;
+    cursor: pointer;
+	fill:#31628B;
+}
+
+#pagetitle{
+	position:absolute;
+	margin:2px 400px 5px 550px;
+	display: block-inline;
+	border: 2px solid #000000;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 5px 5px;
+	background-color: #31628B;/*#000099;*/
+	font-family: Futura, Tahoma, sans-serif;
+	font-size: 20pt;
+	text-align:center;
+}
+form{
+	font-family:Tahoma;
+	color:black;
+	display:inline;
+	position: relative;
+    top: -540px;
+    right: 100px;
+}
+
+.dot{
+	fill:black;
+}
+div.img1{
+	margin: 10px;
+    padding: 5px;
+    border: 3px solid grey;
+	border-radius: 7px 7px;
+    height: auto;
+    width: auto;
+    position:absolute;
+	top: 9px;
+	right:10px;
+    text-align: center;
+}
+div.img2{
+	margin: 10px;
+    padding: 5px;
+    border: 3px solid grey;
+	border-radius: 7px 7px;
+    height: auto;
+    width: auto;
+	position:absolute;
+	top: 9px;
+	left:10px;
+    text-align: center;
+}
+#back{
+	
+	text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #0C5;
+
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 300;
+  
+  margin:33px 10px 0px 870px;
+  
+  position: relative; 
+  top:-535px; right:0; bottom:0; left:-240px;
+  
+  padding: 5px;
+  width: 80px;
+  height:25px;
+
+  background: #D7A941;
+  border: 1px solid grey;
+  border-radius:3px 3px;
+  color: #FFF;
+  overflow: hidden;
+  
+  transition: all 0.5s;
+}
+#back:hover, #back:active 
+{
+  text-decoration: none;
+  color: #31628B;/*#0C5;*/
+  border-color: grey;
+  background: #FFF;
+}
+#update{
+position: absolute;
+    top: 60px;
+    right: 500px;
+}
